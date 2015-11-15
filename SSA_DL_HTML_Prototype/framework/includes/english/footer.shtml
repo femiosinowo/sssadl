@@ -1,0 +1,81 @@
+<footer class="footer" id="footer" role="contentinfo">
+
+<div class="grid">
+
+<div class="show-phone align-center">
+<p><a href="#banner" class="btn-top">Back to Top</a></p>
+<p><a href="/agency/privacy.html">Privacy</a> &#183; <a href="/agency/websitepolicies.html">Website Policies</a></p>
+<p><a class="language" href="/espanol/">Espa&#241;ol</a> &#183; <a class="icon icon-globe" href="/multilanguage/"><svg><use xlink:href="#icon-globe"/></svg> Other Languages</a></p>
+</div>
+
+<div class="row-12 hide-phone">
+
+<div class="column-1">&#160;</div>
+
+<div class="column-3">
+
+<h4>Important Information</h4>
+
+<ul>
+<li><a href="/accessibility/">Accessibility</a></li> 
+<li><a href="/foia/">FOIA</a></li> 
+<li><a href="/agency/glossary/">Glossary</a></li> 
+<li><a href="/agency/privacy.html">Privacy</a></li> 
+<li><a href="http://oig.ssa.gov/report-fraud-waste-or-abuse">Report Fraud, Waste or Abuse</a></li>
+<li><a href="/sitemap.htm">Site Map</a></li>  
+<li><a href="/agency/websitepolicies.html">Website Policies</a></li> 
+</ul>
+ 
+</div>
+
+<div class="column-3">
+
+<h4>Related Sites</h4>	
+
+<ul>                    
+<li><a href="http://www.govbenefits.gov">Benefits.gov</a></li>
+<li><a href="http://www.disability.gov/">Disability.gov</a></li>
+<li><a href="http://www.healthcare.gov">Healthcare.gov</a></li>
+<li><a href="http://mymoney.gov">MyMoney.gov</a></li>
+<li><a href="http://regulations.gov">Regulations.gov</a></li>
+<li><a href="http://www.usa.gov">USA.gov</a></li>
+<li><a href="/agency/other-gov-websites.html">Other Government Sites</a></li>
+</ul>
+
+</div>
+
+<div class="column-4">
+
+<h4><a href="/socialmedia/">Social Media Hub</a></h4>
+
+<div class="row-12">
+
+<div class="column-6">
+<ul class="nav-tiles-list">
+<li class="bg-dark-blue"><a class="disclaimer icon icon-facebook" href="//facebook.com/socialsecurity/"><svg><use xlink:href="#icon-facebook"/></svg> Facebook</a></li>
+<li class="bg-blue"><a class="disclaimer icon icon-twitter" href="//twitter.com/socialsecurity/"><svg style="width:18px; margin-right: 0;"><use xlink:href="#icon-twitter"/></svg> Twitter</a></li>
+<li class="bg-dark-red"><a class="disclaimer icon icon-youtube" href="//youtube.com/socialsecurityonline"><svg><use xlink:href="#icon-youtube"/></svg> YouTube</a></li>
+<li class="bg-red"><a class="disclaimer icon icon-pinterest" href="//pinterest.com/socialsecurity"><svg><use xlink:href="#icon-pinterest"/></svg> Pinterest</a></li>
+</ul>
+</div>
+<div class="column-6">
+<ul class="nav-tiles-list">
+<li class="bg-brown"><a class="icon icon-email" href="/socialmedia/updates/"><svg style="width:18px; margin-right:0;"><use xlink:href="#icon-email"/></svg> Get Updates</a></li>
+<li class="bg-dark-purple"><a class="icon icon-microphone" href="/socialmedia/podcasts/"><svg><use xlink:href="#icon-microphone"/></svg> Podcasts</a></li>
+<li class="bg-dark-pink"><a class="icon icon-pictures" href="/socialmedia/photoblog/"><svg><use xlink:href="#icon-pictures"/></svg> Photoblog</a></li>
+<li class="bg-dark-green"><a class="icon icon-tv" href="/socialmedia/webinars/"><svg><use xlink:href="#icon-tv"/></svg> Webinars</a></li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+<div class="column-1">&#160;</div>
+
+
+</div>
+
+</div>
+
+</footer>

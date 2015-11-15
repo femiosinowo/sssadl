@@ -1,0 +1,8 @@
+<!-- INTERNET FRAMEWORK -->
+<script src="/framework/js/ssa.internet.js"></script>
+
+<!-- Start GA AutoTracker Code -->
+<script src="/framework/js/plugins/ssa.internet.autotracker.js"></script>
+<script>
+addLinkerEvents();
+</script>

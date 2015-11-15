@@ -1,0 +1,21 @@
+<!-- SMARTPHONE ICON -->
+<link rel="apple-touch-icon-precomposed" href="/framework/images/icons/png/apple-touch-icon.png">
+
+<!-- NO SCRIPT STYLES -->
+<noscript><link href="/framework/css/noscript.css" rel="stylesheet" media="all" /></noscript>
+
+<!-- PLUGINS -->
+<script src="/framework/js/plugins/modernizr.min.js"></script>
+
+<!-- JQUERY -->
+<script src="/framework/js/plugins/jquery.min.js"></script>
+
+<!-- FORESEE SURVEY -->
+<script src="/scripts/foresee/foresee-trigger.js"></script>
+
+<!-- GOOGLE ANALYTICS -->
+<script src="/framework/js/plugins/ssa.internet.ga.js"></script>
+
+<!-- FACEBOOK OPEN GRAPH META TAGS -->
+<meta property="og:image" content="/framework/images/icons/png/logo-fb-share.png" />
+<meta property="og:description" content="Social Security delivers a broad range of services online at socialsecurity.gov.  We have a proud history of protecting the integrity of our programs and service to the public." />

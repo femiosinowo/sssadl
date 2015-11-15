@@ -1,0 +1,82 @@
+<footer class="footer" id="footer" role="contentinfo">
+
+<div class="grid">
+
+<div class="show-phone align-center">
+<p><a href="banner" class="btn-top">Regresar al principio</a></p>
+<p><a href="/espanol/agencia/confidencialidad.html">Confidencialidad</a> &#183; <a href="/espanol/agencia/politicasdeinternet.html">Políticas de Internet</a></p>
+<p><a class="language" href="/">English</a> &#183; <a class="icon icon-globe" href="/multilanguage/"><svg><use xlink:href="#icon-globe"/></svg> Otros Idiomas</a></p>
+</div>
+
+<div class="row-12 hide-phone">
+
+<div class="column-1">&#160;</div>
+
+<div class="column-3">
+
+<h4>Información importante</h4>
+
+<ul>
+<li><a href="/espanol/accesibilidad/">Accesibilidad</a></li>
+<li><a href="/espanol/agencia/confidencialidad.html">Confidencialidad</a></li>
+<li><a href="/foia/">FOIA*</a></li>
+<li><a href="/espanol/agencia/glosario-terminologias.html">Glosario</a></li>
+<li><a href="http://oig.ssa.gov/espanol/reportar">Informe fraude o robo de ID</a></li>
+<li><a href="/espanol/mapadelsitio.html">Mapa del sitio</a></li>
+<li><a href="/espanol/agencia/politicasdeinternet.html">Políticas de Internet</a></li> 
+</ul>
+ 
+</div>
+
+<div class="column-3">
+
+<h4>Enlaces relacionados</h4>	
+
+<ul>                    
+<li><a href="http://es.benefits.gov/" target="_blank">Benefits.gov</a></li>
+<li><a href="http://www.cuidadodesalud.gov/" target="_blank">CuidadoDeSalud.gov</a></li>
+<li><a href="http://www.disability.gov/" target="_blank">Disability.gov*</a></li>
+<li><a href="http://www.usa.gov/gobiernousa/" target="_blank">GobiernoUSA.gov</a></li>
+<li><a href="http://mymoney.gov" target="_blank">MyMoney.gov*</a></li>
+<li><a href="http://regulations.gov" target="_blank">Regulations.gov*</a></li>
+<li><a href="/agency/other-gov-websites.html">Otros sitios web del Gobierno*</a></li>
+</ul>
+
+</div>
+
+<div class="column-4">
+
+<h4><a href="/socialmedia/">Redes Sociales*</a></h4>
+
+<div class="row-12">
+
+<div class="column-6">
+<ul class="nav-tiles-list">
+<li class="bg-dark-blue"><a class="disclaimer icon icon-facebook" href="//facebook.com/segurosocial/"><svg><use xlink:href="#icon-facebook"/></svg> Facebook</a></li>
+<li class="bg-blue"><a class="disclaimer icon icon-twitter" href="//twitter.com/segurosocial/"><svg style="width:18px;margin-right:0;"><use xlink:href="#icon-twitter"/></svg> Twitter</a></li>
+<li class="bg-dark-red"><a class="disclaimer icon icon-youtube" href="//youtube.com/socialsecurityonline"><svg><use xlink:href="#icon-youtube"/></svg> YouTube</a></li>
+<li class="bg-red"><a class="disclaimer icon icon-pinterest" href="//pinterest.com/socialsecurity/servicios-en-espa%C3%B1ol/"><svg><use xlink:href="#icon-pinterest"/></svg> Pinterest</a></li>
+</ul>
+</div>
+<div class="column-6">
+<ul class="nav-tiles-list">
+<li class="bg-brown"><a class="icon icon-email" href="/espanol/actualizaciones/"><svg style="width:18px;margin-right:0;"><use xlink:href="#icon-email"/></svg> Actualizaciones</a></li>
+<li class="bg-dark-purple"><a class="icon icon-microphone" href="/podcasts/"><svg><use xlink:href="#icon-microphone"/></svg> Podcasts*</a></li>
+<li class="bg-dark-pink"><a class="icon icon-pictures" href="/photoblog/"><svg><use xlink:href="#icon-pictures"/></svg> Photoblog*</a></li>
+<li class="bg-dark-green"><a class="icon icon-tv" href="/espanol/webinarios/"><svg><use xlink:href="#icon-tv"/></svg> Webinarios</a></li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+<div class="column-1">&#160;</div>
+
+</div>
+<!-- END ROW -->
+
+</div>
+<!-- END GRID -->
+
+</footer>

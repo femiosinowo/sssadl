@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="clicktracks.aspx.cs" Inherits="Templates_Ajax_clicktracks" %>

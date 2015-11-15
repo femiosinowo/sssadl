@@ -1,0 +1,57 @@
+<!-- GLOBAL SVG ICONS -->
+<!--#include virtual="/framework/images/icons/svg/sprite-global.svg" -->
+
+<!-- ACCESSIBILITY OPTIONS -->
+<div class="bg-dark-gray accessibility">
+<div class="content-wrapper no-padding">
+<a class="accessibility-mode" id="accessibility-mode" href="#">Modo de accesibilidad <span>desactivado</span></a>
+<a class="skip-navigation" id="skip-navigation" href="#title-bar">Pase al contenido</a>
+</div>
+</div>
+
+<!-- RESOURCES BLOCK -->
+<div class="block-resources hide-phone">
+<div class="content-wrapper no-padding">
+<div class="bg-dark-gray">
+<a class="icon icon-wheelchair" href="/espanol/accesibilidad/"><svg><use xlink:href="#icon-wheelchair"/></svg> Accesibilidad</a> &#183; 
+<a href="/espanol/agencia/contacto/">Contáctenos</a> &#183; 
+<a href="/espanol/preguntas/" title="Preguntas más frecuentes">¿Preguntas?</a> &#183; 
+<a class="language" href="/">English</a> &#183; 
+<a class="icon icon-globe" href="/multilanguage/"><svg><use xlink:href="#icon-globe"/></svg> Otros idiomas</a> &#183;
+<a href="/signin">Ingresar*</a>
+</div>
+</div>
+</div>
+
+<header class="banner" id="banner" role="banner">
+
+<div class="grid">
+
+<div class="row-12">
+
+<div class="column-6 logo print-full-width" id="logo">
+
+<a href="/espanol/">
+<h1>Seguro Social</h1>
+<span>Sitio de Internet oficial del Seguro Social</span>
+</a>
+
+</div>
+<!-- END COLUMN -->
+
+<div class="column-6 align-right hide-phone hide-print">
+<form method="get" action="http://search.socialsecurity.gov/search" class="search-box" id="search-box" role="search">  
+<input type="hidden" name="affiliate" value="segurosocial" /> 
+<input type="hidden" value="es" name="locale" />
+<input class="usagov-search-autocomplete" type="search" name="query" id="q" autocomplete="off" title="Búsqueda" placeholder="Búsqueda..." />
+</form>
+</div>
+<!-- END COLUMN -->
+
+</div>
+<!-- END ROW -->
+
+</div>
+<!-- END GRID -->
+
+</header>

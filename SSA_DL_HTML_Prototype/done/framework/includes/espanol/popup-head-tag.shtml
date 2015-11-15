@@ -1,0 +1,8 @@
+<!-- PLUGINS -->
+<script src="/framework/js/plugins/modernizr.min.js"></script>
+
+<!-- JQUERY -->
+<script src="/framework/js/plugins/jquery.min.js"></script>
+
+<!-- GOOGLE ANALYTICS SCRIPT -->
+<script src="/framework/js/plugins/ssa.internet.ga.js"></script>

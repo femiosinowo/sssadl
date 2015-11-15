@@ -1,0 +1,105 @@
+<!-- DEFINITION PANEL -->
+<aside class="definition-panel" id="definition-panel" role="dialog"></aside>
+
+<!-- DISCLAIMER DIALOG -->
+<aside class="dialog" id="disclaimer-dialog" role="dialog">
+<div>
+<header><h4 tabindex="-1">External Link Disclaimer</h4></header>
+<section>
+<div class="bold">
+<p>You are exiting the Social Security Administration's website.</p>
+<p>Select OK to proceed.</p>
+<p class="underline">Disclaimer</p>
+</div>
+<p>The Social Security Administration (SSA) website contains links to websites not affiliated with the United States government. These may include State and Local governmental agencies, international agencies, and private entities.</p>
+<p>SSA cannot attest to the accuracy of information provided by such websites. If we provide a link to such a website, this does not constitute an endorsement by SSA or any of its employees of the information or products presented on the non-SSA website.</p>
+<p>Also, such websites are not within our control and may not follow the same privacy, security or accessibility policies. Once you visit such a website, you are subject to the policies of that site.</p>
+<hr />
+<div class="align-right">
+<a class="btn" href="#" id="btn-cancel">Cancel</a>
+<a class="btn" href="#" id="btn-ok">OK</a> 
+</div>
+</section>
+</div>
+</aside>
+
+<!-- UTILITY BAR -->
+<div class="utility-bar" id="utility-bar">
+
+<!-- UTILITY BAR MENU -->
+<ul class="utility-bar-menu">
+<li><a class="icon icon-connect" data-menu="connect" href="#menu-connect"><svg><use xlink:href="#icon-connect"/></svg> Connect</a>
+<div class="menu menu-connect" id="menu-connect">
+<div class="inner-wrap">
+<ul>
+<li><a class="disclaimer" href="//facebook.com/socialsecurity/">Facebook</a></li>
+<li><a class="disclaimer" href="//twitter.com/socialsecurity/">Twitter</a></li>
+<li><a class="disclaimer" href="//youtube.com/socialsecurityonline/">YouTube</a></li>
+<li><a class="disclaimer" href="//pinterest.com/socialsecurity">Pinterest</a></li>
+</ul>
+</div>
+</div>
+</li><li><a class="icon icon-share" data-menu="share" href="#menu-share"><svg><use xlink:href="#icon-share"/></svg> Share</a>
+<div class="menu menu-share" id="menu-share">
+<div class="inner-wrap">
+<ul>
+<li><a class="addthis_button_facebook" href="#" title="Share on Facebook"><span>Facebook</span></a></li>
+<li><a class="addthis_button_twitter" href="#" title="Tweet on Twitter"><span>Twitter</span></a></li>
+</ul>
+</div>
+</div>
+</li><li><a class="icon icon-gov-delivery" data-menu="gov-delivery" href="#menu-gov-delivery"><svg><use xlink:href="#icon-gov-delivery"/></svg> Get Updates</a>
+<div class="menu menu-gov-delivery" id="menu-gov-delivery">
+<div class="inner-wrap">
+<ul>
+<li><a href="#">Sign up for page updates</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+<!-- END UTILITY BAR MENU -->
+
+</div>
+<!-- END UTILITY BAR -->
+
+<!-- OVERLAY -->
+<div class="overlay"></div>
+
+<!-- INTERNET FRAMEWORK -->
+<script src="/framework/js/ssa.internet.js"></script>
+
+<!-- ADD THIS SHARE BUTTONS -->
+<script>
+var 
+addthis_config = {
+
+data_ga_property: 'UA-25977386-2',
+data_ga_social: true,
+data_track_clickback: true,
+data_use_cookies: false,
+ui_click: true,
+ui_use_css: false,
+ui_language: document.documentElement.lang
+
+};
+</script>
+<script defer="defer" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-517fd7440642721a"></script>
+
+<!-- SEARCH.USA.GOV SCRIPT -->
+<script>
+var 
+usasearch_config = { siteHandle:"ssa" };
+
+var 
+script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "https://search.usa.gov/javascripts/remote.loader.js";
+document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+
+<!-- Start GA AutoTracker Code -->
+<script src="/framework/js/plugins/ssa.internet.autotracker.js"></script>
+<script>
+addLinkerEvents();
+</script>

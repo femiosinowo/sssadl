@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Main.master" AutoEventWireup="true" CodeFile="OneColumn.master.cs" Inherits="MasterPages_OneColumn" %>
+<%@ Register Src="~/Controls/PageTitle.ascx" TagPrefix="ux" TagName="PageTitle" %>
+<%@ Register Src="~/Controls/Breadcrumbs.ascx" TagPrefix="ux" TagName="Breadcrumbs" %>
+<%@ Register TagPrefix="cms" Namespace="Ektron.Cms.Controls" Assembly="Ektron.Cms.Controls" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="cphMainHead" Runat="Server">
+    <asp:ContentPlaceHolder ID="cphSecondaryMainHead" runat="server" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphMainContent" runat="Server">
+    <ux:PageTitle ID="uxPageTitle" runat="server" />
+    <!-- PAGE CONTENT -->
+    <div id="content" role="main">
+        <!-- GRID -->
+        <div class="grid">
+            <ux:Breadcrumbs ID="uxBreadcrumb" runat="server" />
+            <div class="row-12">
+             <CMS:ContentBlock ID="mainContent" DynamicParameter="id" Visible="false"   runat="server" />
+                <asp:ContentPlaceHolder ID="cphSecondaryMainContent" runat="server" />
+            </div>
+        </div>
+        <!-- END GRID -->
+    </div>
+    <!-- END CONTENT -->
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cphJSCode" Runat="Server">
+    <asp:ContentPlaceHolder ID="cphSecondaryJSCode" runat="server" />
+</asp:Content>
+

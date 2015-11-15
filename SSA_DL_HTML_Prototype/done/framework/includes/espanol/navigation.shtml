@@ -1,0 +1,221 @@
+<a class="btn-top-menu show-phone hide-print" id="btn-top-menu" href="#nav-top-menu">MENU</a>
+
+<nav class="nav-top-menu hide-print" id="nav-top-menu" role="navigation">
+
+<ul>
+
+<li><a href="/espanol/">Portada</a></li>
+
+<li class="show-phone has-submenu"><a href="#">Recursos</a>
+<div>
+<div class="row-12">
+<ul class="column-12">
+<li><a href="/espanol/comuniquese.htm">Contáctenos</a></li>
+<li><a href="/espanol/preguntas/">¿Preguntas?</a></li>
+<li><a href="/forms/">Formularios*</a></li>
+<li><a href="/espanol/publist2.html">Publicaciones</a></li>
+<li><a href="http://search.socialsecurity.gov/search?affiliate=segurosocial&locale=es">Búsqueda</a></li>
+<li><a href="/signin/">Ingresar*</a></li>
+</ul>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Número y tarjetas</a>
+<div>
+<div class="row-12">
+<ul class="column-4">
+<li><a href="/espanol/SP_SSN/">Número y tarjeta de Seguro Social</a></li>
+<li><a href="//faq-es.ssa.gov/link/portal/34011/34019/Article/2703">Cambiar su nombre</a></li>
+<li><a href="/pubs/ES-05-10923.pdf" target="pdf">Números de Seguro  Social para niños</a></li>
+<li><a href="/medicarecard/">Reemplazar una tarjeta de Medicare*</a></li>
+</ul>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Beneficios</a>
+<div>
+<div class="row-12">
+<div class="column-5">
+<a class="nav-header" href="#" tabindex="-1">Infórmese</a>
+<div class="row-12">
+<ul class="column-6">
+<li><a href="/espanol/jubilacion/jubilacion.html">Jubilación</a></li>
+<li><a href="/espanol/incapacidadssi/">Incapacidad</a></li>
+<li><a href="/espanol/medicare-es/">Medicare</a></li>
+<li><a href="/espanol/sobrevivientes/sobrevivientes.html">Sobrevivientes</a></li>
+<li><a href="/espanol/incapacidadssi/ssi.html">Seguridad de Ingreso Suplementario</a></li>
+<li><a href="/espanol/jubilacion2/calculadora.html">Calculador de beneficios<br /> de jubilación</a></li>               
+</ul>
+<ul class="column-6">
+<li><a href="/espanol/plan/cal-benef.htm">Calculadoras</a></li> 
+<li><a href="/international/">Temas internacionales*</a></li> 
+<li><a href="/espanol/jubilacion2/solicitar6.htm">Cónyuges</a></li>
+<li><a href="/pubs/ES-05-10985.pdf" target="pdf">Niños</a></li>
+<li><a href="/pubs/ES-05-10926.pdf" target="pdf">Niños con incapacidades</a></li>
+<li><a class="no-wrap" href="/espanol/jubilacion2/gpo-wep.html">Empleados del gobierno</a></li> 
+</ul>
+</div>
+</div>
+<div class="column-4">
+<a class="nav-header" href="#" tabindex="-1">Solicite</a>
+<ul>
+<li><a href="/espanol/jubilacion/sobreelplan.html">Solicite beneficios por jubilación</a></li>
+<li><a href="/solicitarporincapacidad/">Solicite beneficios de incapacidad</a></li>
+<li><a href="/espanol/solicitemedicare/">Solicite para Medicare solamente</a></li>
+<li><a href="/espanol/medicare-es/medicamentos/">Beneficio Adicional con los gastos de medicamentos recetados de Medicare</a></li>
+<li><a href="/espanol/jubilacion2/info-paraconyuge.html">Solicite beneficios de cónyuge</a></li>
+<li><a href="/espanol/jubilacion2/info-paraninos.htm">Solicite beneficios para niños</a></li>
+<li><a href="http://www.socialsecurity.gov/claimstatus/">Revise el estado de su solicitud*</a></li>
+<li><a href="/espanol/pgm/apelar.htm">Apelar una decisión</a></li>
+</ul>
+</div>
+<div class="column-3">
+<a class="nav-header" href="#" tabindex="-1">Administre</a>
+<ul>
+<li><a href="/work/">Boleto para trabajar*</a></li> 
+<li><a href="/myaccount/">Cambiar su dirección*</a></li>
+<li><a href="/espanol/deposito/DDhowto_sp.html">Depósito Directo</a></li> 
+<li><a href="/1099/">Formulario 1099/1042*</a></li>
+<li><a href="/medicarecard/">Reemplazar su tarjeta de Medicare*</a></li> 
+<li><a href="https://faq-es.ssa.gov/link/portal/34011/34019/Article/3510/-Puedo-solicitar-o-tener-acceso-a-una-carta-de-verificaci-n-de-mis-beneficios-por-Intenet">Verificar su beneficios/<br />Prueba de carta de verificación</a></li>
+<li><a href="/myaccount/">Verificar su información o beneficios*</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Información para...</a>
+<div>
+<div class="row-12">
+<div class="column-6">
+<a class="nav-header" href="#" tabindex="-1">Personas como yo</a>
+<div class="row-12">
+<ul class="column-5">
+<li><a href="/espanol/personas/ciegos/">Ciego o con poca visión</a></li>
+<li><a href="/espanol/personas/hispanos/">Hispanos</a></li>
+<li><a href="/espanol/personas/inmigracion/">Inmigrantes</a></li>
+<li><a href="/espanol/personas/mujeres/">Mujeres</a></li>
+</ul>
+<ul class="column-7">
+<li><a href="/espanol/personas/ninos/">Niños y familias</a></li>
+<li><a href="/espanol/personas/mismogenero/">Parejas del mismo género</a></li>
+<li><a href="/espanol/personas/sordos/">Sordo o con problemas de audición</a></li>
+<li><a href="/people/veterans/">Veteranos*</a></li>
+</ul>
+</div>
+</div>
+<div class="column-6">
+<a class="nav-header" href="#" tabindex="-1">Terceros</a>
+<div class="row-12">
+<ul class="column-6">
+<li><a href="/representation/">Abogados y Representantes*</a></li>
+<li><a href="/medicare/prescriptionhelp/materials.html">Beneficio Adicional para organizaciones*</a></li>
+<li><a href="/thirdparty/hrm.html">Gerentes de recursos humanos*</a></li>
+<li><a href="/espanol/noticias/prensa/">La Prensa</a></li>
+<li><a href="/myaccount/materials.html">«my Social Security» Información*</a></li>
+</ul>
+<ul class="column-6">
+<li><a href="/schools/">Oficial escolar*</a></li>
+<li><a href="/thirdparty/financial-planners.html">Planificadores financieros*</a></li>
+<li><a href="/disability/professionals/">Profesionales de salud y educación*</a></li>
+<li><a href="/payee/">Representantes de beneficiarios*</a></li>
+<li class="no-wrap"><a href="/homelessness/">Servicios para las personas sin hogar*</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Empresas y Gobierno</a>
+<div>
+<div class="row-12">
+<ul class="column-3">
+<li><a href="/legislation/">Congreso*</a></li>
+<li><a href="/espanol/bso/bso-bienvenido.htm">Empleadores</a></li>
+<li><a href="/improperpayments/afi.html">Institución financiera*</a></li> 
+<li><a href="/dataexchange/">Intercambio de dato*</a></li> 
+</ul>
+<ul class="column-3">
+<li><a href="/oag/osdbu/osdbu.htm">Oficina de empresas pequeñas*</a></li>
+<li><a href="/gso/">Servicios de Gobierno a Gobierno*</a></li>
+<li><a href="/espanol/terceros/negocios.html">Servicios para empresas</a></li>
+<li><a href="/pubs/ES-05-10922.pdf" target="pdf">Trabajadores por cuenta propia</a></li>
+</ul>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Nuestra agencia</a>
+<div>
+<div class="row-12">
+<div class="column-6">
+<a class="nav-header" href="#" tabindex="-1">Información general</a>
+<div class="row-12">
+<ul class="column-6">
+<li><a href="/compassionateallowances/">Aprobación por compasión*</a></li>
+<li><a href="//faq.ssa.gov/link/portal/34011/34019/Article/1872">Archivo maestro de defunción*</a></li> 
+<li><a href="/agency/donations.html">Donaciones a los fondos fiduciarios*</a></li>
+<li><a href="/espanol/agencia/glosario/">Glosario del Seguro Social</a></li> 
+<li><a href="/history/">Historial sobre el Seguro Social*</a></li> 
+<li><a href="/eeo/" class="no-wrap">Información de empleo equitativo*</a></li> 
+</ul>
+<ul class="column-6 pad-left">
+<li><a href="/eeo/nofear/">No FEAR*</a></li>
+<li><a href="/careers/">Oportunidades de empleo*</a></li>
+<li><a href="/agency/ask-for-a-speaker.html">Pedir un Orador*</a></li>
+<li><a href="/espanol/agencia/">Sobre nosotros</a></li>
+<li><a class="no-wrap" href="/open/">«Open Government»*</a></li>
+</ul>
+</div>
+</div>
+<div class="column-6">
+<a class="nav-header" href="#" tabindex="-1">Estudios, planificación y política</a>
+<div class="row-12">
+<ul class="column-6">
+<li><a href="/policy/">Estudios, Estadísticas y Política*</a></li>
+<li><a href="/disabilityresearch/">Investigaciones de incapacidad*</a></li>
+<li><a href="/performance/">Plan de Rendimiento Anual e Informe de Rendimiento*</a></li>
+<li><a href="/budget/">Presupuesto e información*</a></li>
+<li><a href="/agency/budget-and-performance.html">Presupuesto y rendimiento*</a></li>
+</ul>
+<ul class="column-6">
+<li><a href="/oact/">Recursos actuariales*</a></li>
+<li><a href="/improperpayments/">Reducción de pagos impropios*</a></li>
+<li><a href="/regulations/">Reglas programáticas*</a></li>
+<li><a class="no-wrap" href="/finance/">Informe financiero de nuestra agencia*</a></li>
+<li><a href="/espanol/interpreter.htm">Servicios de intérprete</a></li>
+<li><a href="/oact/">Solvencia del Seguro Social*</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="show-phone has-submenu"><a href="#">Información importante</a>
+<div>
+<div class="row-12">
+<ul class="column-12">
+<li><a href="/espanol/accesibilidad/">Accesibilidad</a></li>
+<li><a href="/espanol/sp_privacy.htm">Confidencialidad</a></li>
+<li><a href="/foia/">FOIA*</a></li>
+<li><a href="/espanol/agencia/glosario-terminologias.html">Glosario</a></li>
+<li><a href="http://oig.ssa.gov/report-fraud-waste-or-abuse">Informe fraude o robo de ID*</a></li>
+<li><a href="/espanol/mapadelsitio.html">Mapa del sitio</a></li>
+<li><a href="/espanol/agencia/politicasdeinternet.html">Políticas de Internet</a></li> 
+</ul>
+</div>
+</div>
+</li>
+
+<li class="show-phone"><a class="language" href="/">English</a></li>
+
+<li class="show-phone"><a class="icon icon-globe" href="/multilanguage/"><svg><use xlink:href="#icon-globe"/></svg> Otros Idiomas</a></li>
+
+</ul>
+
+</nav>

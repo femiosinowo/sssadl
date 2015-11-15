@@ -1,0 +1,59 @@
+/*********************************/
+/*   NO SCRIPT STYLES            */
+/*********************************/
+.no-js { display: block; position: static; }
+.no-js .hide { display: block; }
+.no-js .js { display: none;	}
+
+.no-js .accessibility-mode { display: none; }
+
+.no-js .accordion,
+.no-js .tabs,
+.no-js #vertical-tabs { visibility: visible; }
+
+.no-js .accordion > p a:link  { color: #000; cursor:text; text-decoration:none; }
+.no-js .accordion > p a:link:before { display: none; }
+.no-js .accordion > div { display: block; }
+
+.no-js a.definition { color: #333; cursor: text; }
+
+.no-js .definition-panel,
+.no-js .dialog { display: none; }
+
+.no-js .tabs > ul,
+.no-js #vertical-tabs > ul { display: none; }
+.no-js .tabs h3.no-js,
+.no-js #vertical-tabs h3.no-js { clear: both; font-size: 1em; }
+.no-js .tabs > div { display: block; }
+.no-js #vertical-tabs > div { background: #fff; border: none; display: block; margin: 0 0 1em 0; min-height: 1em; padding: 0; position: static; }
+
+.no-js .toggle-block > a,
+.no-js .toggle-link > a { background-image: none; border: none; color:#333; font-weight: bold; cursor:text; padding:0; text-decoration: none; }
+.no-js .toggle-block > a:after,
+.no-js .toggle-link > a:before { display: none; }
+ .no-js .toggle-link > div { display: block; padding: .5em 0; }
+
+.no-js #filter-container { display: none; }
+.no-js #filter-table,
+.no-js .table-filter { margin: 1em 0; visibility: visible; }
+.no-js span.hide { display:none !important; }
+
+.no-js #nav-sidebar.menu ul a.sub { color: #333; cursor: text; }
+.no-js #nav-sidebar.menu ul a.sub:after { display: none; } 
+.no-js #nav-sidebar.menu ul ul { display: block; }
+
+.no-js .ssa-carousel { box-shadow: none; height: auto; position: static; }
+.no-js .ssa-carousel .slide-holder { overflow: hidden; height: 218px; }
+.no-js .ssa-carousel .slide-holder a { opacity: .99; padding: 0; position: static; }
+
+.no-js .nav-top-menu > ul > li.has-submenu:hover > a { background-color: #777; }
+.no-js .nav-top-menu > ul > li.has-submenu:hover > a + div { display: block; }
+
+.no-js .utility-bar { display: none; }
+
+@media (max-width: 37.5em)  { 
+
+	.no-js .btn-top-menu,
+	.no-js .nav-top-menu { display: none; }
+
+}

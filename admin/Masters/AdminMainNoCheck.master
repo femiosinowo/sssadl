@@ -1,0 +1,192 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMainNoCheck.master.cs" Inherits="admin_Masters_AdminMain" %>
+
+<%@ Register Src="~/admin/controls/svg.ascx" TagPrefix="ux" TagName="svg" %>
+<%@ Register Src="~/admin/controls/topmenu.ascx" TagPrefix="ux" TagName="topmenu" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html class="no-js is-responsive" lang="en">
+<head id="Head1" runat="server">
+
+
+
+<!-- REQUIRED META INFORMATION -->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width" />
+
+<!-- DOCUMENT TITLE -->
+<title>Social Security Administration</title>
+
+
+
+<!-- FRAMEWORK STYLES & SCRIPTS -->
+
+
+<link href="/admin/framework/css/phoenix.css" rel="stylesheet" media="all" />
+<!-- SMARTPHONE ICON -->
+
+<!-- NO SCRIPT STYLES -->
+<noscript><link href="/admin/framework/css/noscript.css" rel="stylesheet" media="all" /></noscript>
+
+<!-- PLUGINS -->
+<script src="/admin/framework/js/plugins/modernizr.min.js" type="text/javascript"></script>
+
+<!-- JQUERY -->
+<script src="/admin/framework/js/plugins/jquery.min.js" type="text/javascript"></script>
+
+
+<!-- GOOGLE ANALYTICS -->
+<script src="/admin/framework/js/plugins/ssa.internet.ga.js" type="text/javascript"></script>
+
+<!-- FACEBOOK OPEN GRAPH META TAGS -->
+
+
+<!-- CUSTOM STYLES & SCRIPTS -->
+ <link href="/admin/framework/css/digital.css" type="text/css" rel="stylesheet" media="all" /> 
+ <script src="/admin/framework/js/script.js" type="text/javascript"></script> 
+
+
+   <script type="text/javascript" src="/admin/framework/js/jquery.tools.min.js"></script>
+        <link href="/admin/framework/css/thickbox.css" rel="stylesheet" type="text/css" />
+        <script src="/admin/framework/js/thickbox.js" type="text/javascript"></script>
+
+
+
+        
+     <link rel="stylesheet" href="/admin/framework/css/jquery-ui.css" />
+ 
+<script src="/admin/framework/js/jquery-ui.js"></script>
+
+     <link rel="stylesheet" href="/admin/framework/css/timepicki.css" />
+<script src="/admin/framework/js/timepicki.js"></script>
+ 
+
+    <link rel="stylesheet" href="/admin/framework/css/jquery-te-1.4.0.css" />
+<script src="/admin/framework/js/jquery-te-1.4.0.min.js"></script>
+
+<script src="/admin/framework/js/require.js"></script>
+
+
+<script src="/admin/framework/js/tdi.tabs.js"></script>
+     <link rel="stylesheet" href="/admin/framework/css/tabs.css" />
+
+
+     <script>
+         $(function () {
+          
+             $(".html").jqte();
+         });
+
+
+
+
+  </script>
+ 
+ 
+
+
+
+
+
+  <asp:ContentPlaceHolder id="headerCP" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+
+</head>
+<body>
+<form id="form2" runat="server"  enctype="multipart/form-data">
+<div id="page">
+
+
+
+
+
+<ux:svg runat="server" />
+<!-- BANNER -->
+<!-- BANNER -->
+<!-- GLOBAL SVG ICONS -->
+
+<!-- ACCESSIBILITY OPTIONS -->
+<div class="bg-dark-gray accessibility">
+<div class="content-wrapper no-padding">
+<a class="accessibility-mode" id="accessibility-mode" href="#">Accessibility Mode <span>Off</span></a>
+<a class="skip-navigation" id="skip-navigation" href="#title-bar">Skip to content</a>
+</div>
+</div>
+
+<!-- RESOURCES BLOCK -->
+<div class="block-resources hide-phone">
+<div class="content-wrapper no-padding">
+<div class="bg-dark-gray">
+<!--<a class="icon icon-wheelchair" href="/accessibility/"><svg><use xlink:href="#icon-wheelchair"/></svg> Accessibility</a> &#183; -->
+
+</div>
+</div>
+</div>
+
+<header class="banner" id="banner" role="banner">
+
+<div class="grid">
+
+<div class="row-12">
+
+
+<!-- END COLUMN -->
+
+
+</div>
+<!-- END ROW -->
+
+</div>
+<!-- END WRAPPER -->
+
+</header>
+
+<!-- SITE NAVIGATION -->
+<!-- SITE NAVIGATION -->
+<a class="btn-top-menu show-phone hide-print" id="btn-top-menu" href="#nav-top-menu" aria-label="Menu">MENU</a>
+
+
+<!-- PAGE TITLE -->
+<asp:ContentPlaceHolder id="pageTitleCP" runat="server">
+        
+        </asp:ContentPlaceHolder>
+<!-- PAGE CONTENT -->
+<div id="content" role="main">
+
+
+<asp:ContentPlaceHolder id="mainContentCP" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+</div>
+<!-- END CONTENT -->
+
+<!-- FOOTER -->
+<!-- PAGE FOOTER -->
+<footer class="footer" id="footer" role="contentinfo">
+
+ 
+<asp:ContentPlaceHolder id="footerCP" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</footer>
+</div><!-- page-->
+<!-- END PAGE CONTAINER -->
+
+<!-- FRAMEWORK BODY CONTENT -->
+<!-- FRAMEWORK BODY CONTENT -->
+<!-- DEFINITION PANEL -->
+ 
+
+
+<!-- OVERLAY -->
+<div class="overlay"></div>
+
+<!-- INTERNET FRAMEWORK -->
+<script src="/admin/framework/js/ssa.internet.js"></script>
+ </form>
+</body>
+</html>

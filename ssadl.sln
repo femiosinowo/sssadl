@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dev.ssadl.local", "http://dev.ssadl.local", "{6AF14F19-63BA-4261-82EF-3C911328C829}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/dev_ssadl_local"
+		Debug.AspNetCompiler.PhysicalPath = "..\ssadl\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\dev_ssadl_local\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/dev_ssadl_local"
+		Release.AspNetCompiler.PhysicalPath = "..\ssadl\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\dev_ssadl_local\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\ssadl\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AF14F19-63BA-4261-82EF-3C911328C829}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{6AF14F19-63BA-4261-82EF-3C911328C829}.Release|.NET.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

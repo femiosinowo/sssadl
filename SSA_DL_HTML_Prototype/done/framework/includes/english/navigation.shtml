@@ -1,0 +1,232 @@
+<a class="btn-top-menu show-phone hide-print" id="btn-top-menu" href="#nav-top-menu">MENU</a>
+
+<nav class="nav-top-menu hide-print" id="nav-top-menu" role="navigation">
+
+<ul>
+
+<li><a href="/">Home</a></li>
+
+<li class="show-phone has-submenu"><a href="#">Resources</a>
+<div>
+<div class="row-12">
+<ul class="column-12">
+<li><a href="/agency/contact/">Contact Us</a></li>
+<li><a href="/ask/" title="Frequently Asked Questions">FAQs</a></li>
+<li><a href="/forms/">Forms</a></li>
+<li><a href="/pubs/">Publications</a></li>
+<li><a href="http://search.socialsecurity.gov/search?affiliate=ssa">Search</a></li>
+<li><a href="/signin/">Sign In</a></li>
+</ul>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Numbers &amp; Cards</a>
+<div>
+<div class="row-12">
+<ul class="column-4">
+<li><a href="/ssnumber/">Social Security Number &amp; Card</a></li>
+<li><a href="//faq.ssa.gov/ics/support/kbanswer.asp?QuestionID=3749">Change Your Name</a></li>
+<li><a href="/pubs/EN-05-10023.pdf" target="pdf">Social Security Numbers for Children</a></li>
+<li><a href="/medicarecard/">Replacement Medicare Card</a></li>
+</ul>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Benefits</a>
+<div>
+<div class="row-12">
+<div class="column-5">
+<a class="nav-header" href="#" tabindex="-1">Learn</a>
+<div class="row-12">
+<ul class="column-7">
+<li><a href="/retirement/retirement.htm">Retirement</a></li>
+<li><a href="/disabilityssi/">Disability</a></li>
+<li><a href="/medicare/">Medicare</a></li>
+<li><a href="/survivorplan/survivors.htm">Survivors</a></li>
+<li><a href="/disabilityssi/ssi.html">Supplemental Security Income</a></li>
+<li><a href="http://www.socialsecurity.gov/retire2/estimator.htm">Retirement Estimator</a></li>
+<li><a href="/planners/benefitcalculators.htm">Calculators</a></li>             
+</ul>
+<ul class="column-5">
+<li><a href="/reentry/">After Incarceration</a></li>             
+<li><a href="/international/">Benefits outside the U.S.</a></li> 
+<li><a href="/retire2/applying6.htm">Spouses</a></li>
+<li><a href="/pubs/EN-05-10085.pdf" target="pdf">Children</a></li>
+<li><a href="/pubs/EN-05-10026.pdf" target="pdf">Children with Disabilities</a></li>
+<li><a href="/retire2/gpo-wep.htm">Government Employees</a></li> 
+</ul>
+</div>
+</div>
+<div class="column-4">
+<a class="nav-header" href="#" tabindex="-1">Apply</a>
+<ul>
+<li><a href="/retirement/about.htm">Apply Online for Retirement</a></li>
+<li><a href="http://www.socialsecurity.gov/disabilityssi/apply.html">Apply Online for Disability</a></li>
+<li><a href="/medicare/apply.html">Apply Online for Medicare Only</a></li>
+<li><a href="/medicare/prescriptionhelp/">Extra Help with Medicare Prescription Costs</a></li>
+<li><a href="/online/ssa-2.html">Apply for Spouse's Benefits</a></li>
+<li><a href="/online/ssa-4.html">Apply for Child's Benefits</a></li>
+<li><a href="/claimstatus/">Check Application Status</a></li>
+<li><a href="/disabilityssi/appeal.html">Appeal a Decision</a></li>
+</ul>
+</div>
+<div class="column-3">
+<a class="nav-header" href="#" tabindex="-1">Manage</a>
+<ul>
+<li><a href="//faq.ssa.gov/ics/support/kbanswer.asp?QuestionID=3705">Benefit Verification/<br/>Proof of Benefits Letter</a></li>
+<li><a href="//faq.ssa.gov/ics/support/kbanswer.asp?QuestionID=3704">Change Your Address</a></li>
+<li><a href="/myaccount/">Check Your Information or Benefits</a></li>
+<li><a href="/deposit/howtosign.htm">Direct Deposit</a></li> 
+<li><a href="/1099/">Form 1099/1042</a></li>
+<li><a href="/medicarecard/">Replacement Medicare Card</a></li> 
+<li><a href="/work/">Ticket to Work</a></li> 
+</ul>
+</div>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Information for...</a>
+<div>
+<div class="row-12">
+<div class="column-5">
+<a class="nav-header" href="#" tabindex="-1">People Like Me</a>
+<div class="row-12">
+<ul class="column-7">
+<li><a href="/people/aian/">American Indians/Alaska Natives</a></li>
+<li><a href="/people/africanamericans/">African Americans</a></li>
+<li><a href="/people/aapi/">Asian Americans/Pacific Islanders</a></li>
+<li><a href="/people/blind/">Blind or Visually Impaired</a></li>
+<li><a href="/people/deaf/">Deaf or Hard of Hearing</a></li>
+<li><a href="/people/hispanics/">Hispanics</a></li>
+<li><a href="/people/immigrants/">Immigrants</a></li>
+</ul>
+<ul class="column-5 pad-left">
+<li><a href="/people/kids/">Kids &amp; Families</a></li>
+<li><a href="/people/same-sexcouples/">Same-Sex Couples</a></li>
+<li><a href="/people/veterans/#ht=1">Veterans</a></li>
+<li><a href="/people/women/">Women</a></li>
+<li><a href="/people/veterans/">Wounded Warriors</a></li>
+<li><a href="/people/youngpeople/">Young People</a></li>
+</ul>
+</div>
+</div>
+<div class="column-7">
+<a class="nav-header" href="#" tabindex="-1">Third Parties</a>
+<div class="row-12">
+<ul class="column-6">
+<li><a href="/representation/">Attorneys &amp; Appointed Representatives</a></li>
+<li><a href="/thirdparty/financial-planners.html">Financial Planners</a></li>
+<li><a href="/thirdparty/">Groups &amp; Organizations</a></li>
+<li><a href="/disability/professionals/">Health &amp; School Professionals</a></li>
+<li><a href="/thirdparty/hrm.html">Human Resource Professionals</a></li>
+<li><a href="/medicare/prescriptionhelp/materials.html">Medicare Outreach Organizations</a></li>
+</ul>
+<ul class="column-6 pad-left">
+<li><a href="/myaccount/materials.html">my Social Security Information</a></li>
+<li><a href="/news/press/">Press</a></li>
+<li><a href="/payee/">Representative Payees</a></li>
+<li><a href="/schools/">School Officials</a></li>
+<li><a href="/homelessness/">Service Providers for the Homeless</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Business &amp; Government</a>
+<div>
+<div class="row-12">
+<ul class="column-3">
+<li><a href="/thirdparty/business.html">Business Services</a></li>
+<li><a href="/legislation/">Congress</a></li> 
+<li><a href="/dataexchange/">Data Exchange</a></li> 
+<li><a href="/ere/">Electronic Records Express</a></li>
+<li><a href="/employer/">Employers</a></li> 
+</ul>
+<ul class="column-3">
+<li><a href="/improperpayments/afi.html">Financial Institutions</a></li> 
+<li><a href="/gso/">Government Services Online</a></li>
+<li><a href="/pubs/EN-05-10022.pdf" target="pdf">Self-Employed</a></li>
+<li><a href="/oag/osdbu/osdbu.htm">Small Business</a></li>
+<li><a href="/developer/">Software Developers</a></li>
+</ul>
+</div>
+</div>
+</li>
+
+<li class="has-submenu"><a href="#">Our Agency</a>
+<div>
+<div class="row-12">
+<div class="column-6">
+<a class="nav-header" href="#" tabindex="-1">General Information</a>
+<div class="row-12">
+<ul class="column-6">
+<li><a href="/agency/">About Us</a></li> 
+<li><a href="/agency/ask-for-a-speaker.html">Ask for a Speaker</a></li>
+<li><a href="/careers/">Careers with Social Security</a></li>
+<li><a href="/compassionateallowances/">Compassionate Allowances</a></li>
+<li><a href="/digitalstrategy/">Digital Government Strategy</a></li>
+<li><a href="//faq.ssa.gov/ics/support/kbanswer.asp?QuestionID=3849">Death Master File (Death Index)</a></li> 
+<li><a href="/agency/donations.html">Donations to the Trust Funds</a></li> 
+</ul>
+<ul class="column-6">
+<li><a href="/eeo/">Equal Employment Information</a></li> 
+<li><a href="/agency/glossary/">Glossary of Social Security Terms</a></li> 
+<li><a href="/history/">History of Social Security</a></li> 
+<li><a href="/eeo/nofear/">No FEAR</a></li>            
+<li><a href="/open/">Open Government</a></li>
+<li><a href="/agency/plain-language/">Plain Writing</a></li>
+</ul>
+</div>
+</div>
+<div class="column-6">
+<a class="nav-header" href="#" tabindex="-1">Research, Policy &amp; Planning</a>
+<div class="row-12">
+<ul class="column-6">
+<li><a href="/oact/">Actuarial Resources</a></li>
+<li><a href="/conference/">Agency Conference Reporting</a></li>
+<li><a href="/finance/">Agency Financial Report</a></li>
+<li><a href="/agency/performance/">Annual Performance Plan & Performance Report</a></li>
+<li><a href="/budget/">Budget Estimates & Related Info</a></li>
+<li><a href="/agency/budget-and-performance.html">Budget & Performance</a></li>
+</ul>
+<ul class="column-6">
+<li><a href="/disabilityresearch/">Disability Research</a></li>
+<li><a href="/multilanguage/LEPPlan2.htm">Limited English Proficiency Plan</a></li>
+<li><a href="/regulations/">Program Rules</a></li>
+<li><a href="/improperpayments/">Reducing Improper Payments</a></li>
+<li><a href="/policy/">Research, Statistics & Policy Analysis</a></li>
+<li><a href="/oact/">Solvency of Social Security</a></li>
+<li><a href="/agency/asp/Vision2025.html">Vision 2025</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+ 
+<li class="show-phone has-submenu"><a href="#">Important Information</a>
+<div>
+<div class="row-12">
+<ul class="column-12">
+<li><a href="/accessibility/">Accessibility</a></li> 
+<li><a href="/foia/">FOIA</a></li>
+<li><a href="/agency/glossary/">Glossary</a></li> 
+<li><a href="/agency/privacy.html">Privacy</a></li> 
+<li><a href="http://oig.ssa.gov/report-fraud-waste-or-abuse">Report Fraud, Waste or Abuse</a></li>
+<li><a href="/sitemap.htm">Site Map</a></li>  
+<li><a href="/agency/websitepolicies.html">Site Policies</a></li> </ul>
+</div>
+</div>
+</li>
+
+<li class="show-phone"><a class="language" href="/espanol/">Espa&#241;ol</a></li>
+
+<li class="show-phone"><a class="icon icon-globe" href="/multilanguage/"><svg><use xlink:href="#icon-globe"/></svg> Other Languages</a></li>
+
+</ul>
+</nav>

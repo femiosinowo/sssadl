@@ -1,0 +1,211 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin/Masters/AdminMain.master" AutoEventWireup="true" CodeFile="scheduledreport.aspx.cs" Inherits="admin_reports_Default" %>
+<%@ Register Src="~/admin/reports/SideNav.ascx" TagPrefix="ux" TagName="SideNav" %>
+<%@ Register Src="~/admin/controls/auditLog.ascx" TagPrefix="ux" TagName="AuditLog" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="headerCP" Runat="Server">
+
+ 
+
+ 
+
+
+<script>
+
+
+    $(document).ready(function () {
+      //  $("#ctl00_mainContentCP_startDate").datepicker();
+        $("#ctl00_mainContentCP_startDate").datepicker({
+            minDate: 1,
+            onSelect: function () {
+                $("#ctl00_mainContentCP_startDate").removeClass("validate[required]");
+            },
+            dateFormat: 'mm/dd/yy'
+        });
+
+    });
+
+    function confirmDelete() {
+
+      //  if (confirm('Are you sure you want to remove <%=ReportNameData %>')) {
+            // do things if OK
+      //      location.href = '/admin/reports/scheduledreportdelete.aspx?deleteReportID=<%=ScheduleReportID %>';
+        //  }
+
+        $("#dialog-confirm").dialog({
+
+            resizable: false,
+
+            height: 200,
+
+            modal: true,
+
+            buttons: {
+
+                "Remove it": function () {
+
+                    $(this).dialog("close");
+                     location.href = '/admin/reports/scheduledreportdelete.aspx?deleteReportID=<%=ScheduleReportID %>';
+                   // alert(<%=ScheduleReportID %>);
+                },
+
+                "Keep it": function () {
+
+                    $(this).dialog("close");
+
+                }
+
+            }
+
+        });
+
+
+    }
+
+
+ 
+        $(function () {
+
+            $("#ctl00_mainContentCP_SendTime").timepicki({ increase_direction: 'up' });
+            
+        });
+  </script>
+    <style>
+
+        .ui-widget { font-size:small !important;}
+
+
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="pageTitleCP" Runat="Server"><div id="title-bar"><h2>Scheduled Report</h2></div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="mainContentCP" Runat="Server">
+ <div id="dialog-confirm" style="display:none" title="Remove from Scheduler?">
+
+  <p> 
+
+      Are you sure you want to remove <%=ReportNameData %> from the scheduler?
+  </p>
+
+</div>
+
+
+
+ <!-- PAGE TITLE -->
+
+
+	  
+	  <!-- CONTENT -->
+	  <div id="content" role="main">
+	  
+	  <!-- GRID -->
+	  <div class="grid" id="admin-tools-int-content">
+	      <div class="ssadl-breadcrumbs margin-bottom">
+     <ul>
+          <li><a href="/admin/">Home</a></li><li>Reports</li> <li>Scheduled Report</li>  
+    </ul> 
+
+   
+    
+      
+</div>
+	  <div class="row-12">
+	  
+	  
+	  
+<ux:SideNav ID="SideNav1" runat="server" />
+	  
+	  
+	  <!-- END COLUMN -->
+	  
+	  <div class="column-9">
+	  <asp:Panel runat="server" ID="InvalidEmailPanel" Visible="false" >
+      <div class="container-red">
+	     <h4>These emails are not valid emails</h4>
+		
+	  <%=invalidEmailsFound %>
+	  
+	  </div>
+      
+      </asp:Panel>
+      <asp:Panel runat="server" ID="SchedCreatePanel" Visible="false" >
+      
+           <div class="container-blue">
+	     <h4><%=UpdSaveMessage %></h4>
+		
+	 
+	  
+	  </div>
+      </asp:Panel>
+
+	  <p>
+      <label for="ctl00_mainContentCP_ReportName" class="bold"> Report Name* :</label> <br/>
+      <asp:TextBox runat="server" ID="ReportName" CssClass="validate[required]" ></asp:TextBox>
+      </p>
+	  
+	 
+	   <p>
+      <label for="ctl00_mainContentCP_emails" class="bold" >Notify these email addresses *: <br /> (Seperate multiple addresses with commas.)</label> <br/>
+      <asp:TextBox runat="server"  CssClass="validate[required]" ID="emails" TextMode="MultiLine" ></asp:TextBox>
+      </p>
+
+	    <p>
+      <label for="ctl00_mainContentCP_frequency"  >Frequency</label> <br/>
+      <asp:DropDownList runat="server" ID="frequency" >
+       <asp:ListItem >Daily</asp:ListItem>
+      <asp:ListItem >Weekly</asp:ListItem>
+       <asp:ListItem >Bi-Weekly</asp:ListItem>
+        <asp:ListItem   >Monthly</asp:ListItem>
+         <asp:ListItem >Quarterly</asp:ListItem>
+         <asp:ListItem >Annually</asp:ListItem>
+     
+      </asp:DropDownList>
+      </p>
+	  
+
+        <p>
+      <label for="ctl00_mainContentCP_startDate" class="bold" >Start Date*: </label> <br/>
+      <asp:TextBox runat="server" ID="startDate" CssClass="validate[required]" Width="150"  ></asp:TextBox>
+      </p>
+	   
+	   <p>
+      
+      
+              	    <label for="ctl00_mainContentCP_SendTime" class="bold" >Time*: </label> <br/>
+      <asp:TextBox runat="server" ID="SendTime" CssClass="validate[required]" Width="150"  ></asp:TextBox>
+
+      </p><p></p>
+
+       <div class="buttons">
+        <asp:Button CssClass="btn" runat="server" ID="Save" Text="Save" Visible="false"
+               onclick="Save_Click" /> 
+                <asp:Button CssClass="btn" runat="server" ID="Send" Text="Create Schedule"  Visible="false"
+               onclick="Send_Click" /> 
+
+	   <input class="btn" onclick="history.back(-1)"  id="Text1" value="Cancel"  type="button" style="width:150px" /> 
+	  	 <asp:HiddenField runat="server" ID="WhereFrom" />
+	  	 <a runat="server" id="showRemove" visible="false"  onclick="javascript:confirmDelete();" href='#' class="float-right"  >Remove This Report From the Schedule</a>
+         
+	  </div>
+
+      <p>
+      
+
+      </p><p>
+      
+
+      </p>
+         <ux:AuditLog runat="server" ID="AuditLogUX" />
+	  </div>
+	  <!-- END COLUMN -->
+	  
+	  </div>
+	  <!-- END ROW -->
+	  
+	  </div>
+	  <!-- END GRID -->
+	  
+	  </div>
+	  <!-- END PAGE CONTENT -->
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="footerCP" Runat="Server">
+</asp:Content>
+

@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="MasterPages_MasterPage"  %>
+
+<%@ Register TagPrefix="cms" Namespace="Ektron.Cms.Controls" Assembly="Ektron.Cms.Controls" %>
+<%@ Register Src="~/Controls/UtilityNav.ascx" TagPrefix="ux" TagName="UtilityNav" %>
+<%@ Register Src="~/Controls/GlobalSVG.ascx" TagPrefix="ux" TagName="GlobalSVG" %>
+<%@ Register Src="~/Controls/MainNav.ascx" TagPrefix="ux" TagName="MainNav" %>
+<%@ Register Src="~/Controls/FooterNav.ascx" TagPrefix="ux" TagName="FooterNav" %>
+<%@ Register Src="~/Controls/externalLinkDisclaimer.ascx" TagPrefix="ux" TagName="Disclaimer" %>
+<%@ Register Src="~/Controls/Alert.ascx" TagPrefix="ux" TagName="Alert" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js is-responsive"  lang="en">
+<head runat="server">  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+	<link rel="icon" href="/favicon-ssa-sdl.ico?" type="image/png">
+<link rel="shortcut icon" href="/favicon-ssa-sdl.ico?" type="image/png" />
+  <title runat="server" visible="false"></title>
+    <!--head content place holder --> 
+	<cms:MetaData ID="uxMetaDataTitles" runat="server" DynamicParameter="id" visible="false" />
+ 
+ <asp:Literal runat="server" ID="MetaDataInfo" />
+    <!-- REQUIRED META INFORMATION -->
+    <!-- FRAMEWORK STYLES & SCRIPTS -->
+  
+	
+	 
+  
+  
+  
+<%--    <script src="/framework/js/jquery-ui.js"></script>
+     <script src="/framework/js/scripts.js"></script>
+    <link href="/framework/css/phoenix.css" rel="stylesheet" media="all" />
+    <!-- SMARTPHONE ICON -->
+    <!-- NO SCRIPT STYLES -->
+    <noscript>
+        <link href="/framework/css/noscript.css" rel="stylesheet" media="all" />
+    </noscript>
+    <!-- PLUGINS -->
+    <script src="/framework/js/plugins/modernizr.min.js"></script>
+  
+    <!-- GOOGLE ANALYTICS -->
+    <script src="/framework/js/plugins/ssa.internet.ga.js"></script>
+    <!-- FACEBOOK OPEN GRAPH META TAGS -->
+    <!-- CUSTOM STYLES & SCRIPTS -->
+    <link href="/framework/css/digital.css" type="text/css" rel="stylesheet"
+        media="all" />--%>
+
+
+
+        <!-- FRAMEWORK STYLES & SCRIPTS -->
+<link href="/framework/css/phoenix.css" rel="stylesheet" media="all" />
+<!-- SMARTPHONE ICON -->
+
+<!-- NO SCRIPT STYLES -->
+    <script src="/framework/js/indexOfie8.js"></script>
+<noscript><link href="/framework/css/noscript.css" rel="stylesheet" media="all" /></noscript>
+
+<!-- PLUGINS -->
+<script src="/framework/js/plugins/modernizr.min.js"></script>
+
+<!-- JQUERY -->
+ 
+
+
+<!-- GOOGLE ANALYTICS -->
+<script src="/framework/js/plugins/ssa.internet.ga.js"></script>
+
+<!-- FACEBOOK OPEN GRAPH META TAGS -->
+
+
+<!-- CUSTOM STYLES & SCRIPTS -->
+ <link href="/framework/css/digital.css" type="text/css" rel="stylesheet" media="all" /> 
+ <script src="/framework/js/scripts.js"></script> 
+
+
+   
+    <asp:ContentPlaceHolder ID="cphMainHead" runat="server" />
+    <!-- GOOGLE ANALYTICS -->
+ <script src="http://ssa.gov/framework/js/plugins/ssa.intranet.ga.js"></script>
+</head><body>
+<form id="form1" runat="server" enctype="multipart/form-data" autocomplete="off">
+
+    <asp:ContentPlaceHolder ID="cphMainPBPageHost" runat="server" />
+    <div id="page">
+    <ux:Alert runat="server" />
+
+        <!-- SVG images -->
+        <ux:GlobalSVG ID="uxGlobalSVG" runat="server" />
+        <!-- BANNER -->
+        <!-- BANNER -->
+        <!-- GLOBAL SVG ICONS -->
+        <ux:UtilityNav ID="uxUtilityNav" runat="server" />
+        <!-- SITE NAVIGATION -->
+        <!-- SITE NAVIGATION -->
+        <ux:MainNav ID="uxMainNav1" runat="server" />
+        <!-- PAGE TITLE -->
+  
+        <!-- PAGE CONTENT -->
+        <asp:ContentPlaceHolder ID="cphMainContent" runat="server" />
+        <!-- END CONTENT -->
+        <!-- FOOTER -->
+        <!-- PAGE FOOTER -->
+        <ux:FooterNav ID="uxFooterNav1" runat="server" />
+    </div>
+    <!-- page-->
+    <!-- END PAGE CONTAINER -->
+    <!-- FRAMEWORK BODY CONTENT -->
+    <!-- FRAMEWORK BODY CONTENT -->
+    <!-- DEFINITION PANEL -->
+    <aside class="definition-panel" id="definition-panel" role="dialog"></aside>
+    <!-- DISCLAIMER DIALOG -->
+<ux:Disclaimer runat="server" ID="disclaimer" />
+    <!-- OVERLAY -->
+    <div class="overlay">
+    </div>
+    <!-- INTERNET FRAMEWORK -->
+    <script src="/framework/js/ssa.internet.js"></script>
+
+     <asp:ContentPlaceHolder ID="cphJSCode" runat="server" />
+  <CMS:ContentBlock ID="mainContent"    runat="server" />
+</form>
+
+    <!-- GOOGLE ANALYTICS AUTOTRACKER CODE -->
+ <script src="http://ssa.gov/framework/js/plugins/ssa.internet.autotracker.js"></script>
+ <script>
+ addLinkerEvents();
+ </script>
+
+
+
+     <script type="text/javascript">
+         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-25977386-20");
+        pageTracker._trackPageview();
+    } catch (err) { }</script>
+
+
+       </body>
+</html>

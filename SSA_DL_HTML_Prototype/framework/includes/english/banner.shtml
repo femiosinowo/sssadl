@@ -1,0 +1,59 @@
+<!-- GLOBAL SVG ICONS -->
+<!--#include virtual="/framework/images/icons/svg/sprite-global.svg" -->
+
+<!-- ACCESSIBILITY OPTIONS -->
+<div class="bg-dark-gray accessibility">
+<div class="content-wrapper no-padding">
+<a class="accessibility-mode" id="accessibility-mode" href="#">Accessibility Mode <span>Off</span></a>
+<a class="skip-navigation" id="skip-navigation" href="#title-bar">Skip to content</a>
+</div>
+</div>
+
+<!-- RESOURCES BLOCK -->
+<div class="block-resources hide-phone">
+<div class="content-wrapper no-padding">
+<div class="bg-dark-gray">
+<a class="icon icon-wheelchair" href="/accessibility/"><svg><use xlink:href="#icon-wheelchair"/></svg> Accessibility</a> &#183; 
+<a href="/agency/contact/">Contact Us</a> &#183; 
+<a href="/ask/" title="Frequently Asked Questions">FAQs</a> &#183; 
+<a class="language" href="/espanol/">Espa&#241;ol</a> &#183; 
+<a class="icon icon-globe" href="/multilanguage/"><svg><use xlink:href="#icon-globe"/></svg> Other Languages</a> &#183; 
+<a href="/signin/">Sign In</a>
+</div>
+</div>
+</div>
+
+<header class="banner" id="banner" role="banner">
+
+<div class="grid">
+
+<div class="row-12">
+
+<div class="column-6 logo" id="logo">
+
+<a href="/">
+<h1>Social Security</h1>
+<span>Official Social Security Website</span>
+</a>
+
+</div>
+<!-- END COLUMN -->
+
+<div class="column-6 align-right hide-phone">
+
+<form method="get" action="http://search.socialsecurity.gov/search" class="search-box" id="search-box" role="search">  
+<input type="hidden" name="affiliate" value="ssa" /> 
+<input class="usagov-search-autocomplete" type="search" name="query" id="q" autocomplete="off" title="Search" placeholder="Search..." />
+</form>
+
+
+</div>
+<!-- END COLUMN -->
+
+</div>
+<!-- END ROW -->
+
+</div>
+<!-- END WRAPPER -->
+
+</header>

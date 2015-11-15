@@ -1,0 +1,106 @@
+<!-- DEFINITION PANEL -->
+<aside class="definition-panel" id="definition-panel" role="dialog"></aside>
+
+<!-- DISCLAIMER DIALOG -->
+<aside class="dialog" id="disclaimer-dialog" role="dialog">
+<div>
+<header><h4 tabindex="-1">External Link Disclaimer</h4></header>
+<section>
+<div class="bold">
+<p>Est&aacute; saliendo del sitio de Internet del Seguro Social.</p>
+<p>Seleccione OK para continuar.</p>
+<p class="underline">Limitaci&oacute;n de responsabilidad</p>
+</div>
+<p>El sitio de Internet de la Administraci&oacute;n del Seguro Social contiene conexiones a sitios de Internet que no est&aacute;n afiliados con el gobierno de los Estados Unidos. Estos podr&iacute;an incluir agencias del gobierno estatal y municipal, agencias internacionales, y entidades privadas.</p>
+<p>La Administraci&oacute;n del Seguro Social no puede atestiguar sobre la veracidad de la informaci&oacute;n provista por dichos sitios de Internet. Si proveemos una conexi&oacute;n a tal sitio de Internet, esto no constituye una aprobaci&oacute;n o respaldo, de parte de la Administraci&oacute;n del Seguro Social o de ninguno de sus empleados, de la informaci&oacute;n o productos presentados en esos sitios de Internet.</p>
+<p>Adem&aacute;s, tales sitios de Internet no est&aacute;n bajo nuestro control y es posible que no sigan la misma pol&iacute;tica de confidencialidad, seguridad o accesibilidad.  Una vez que usted visita tal sitio de Internet, est&aacute; sujeto a las pol&iacute;ticas de ese sitio.</p>
+<hr />
+<div class="align-right">
+<a class="btn" href="#" id="btn-cancel">Cancelar</a>
+<a class="btn" href="#" id="btn-ok">OK</a> 
+</div>
+</section>	
+</div>
+</aside>
+
+<!-- UTILITY BAR -->
+<div class="utility-bar" id="utility-bar">
+
+<!-- ENGLISH ONLY PAGES NOTE -->
+<h4 class="bg-light-blue eightypercent">* Servicios e información solo disponible en inglés</h4>
+
+<!-- UTILITY BAR MENU -->
+<ul class="utility-bar-menu">
+<li><a class="icon icon-connect" data-menu="connect" href="#menu-connect"><svg><use xlink:href="#icon-connect"/></svg> Con&eacute;ctese</a>
+<div class="menu menu-connect" id="menu-connect">
+<div class="inner-wrap">
+<ul>
+<li><a class="disclaimer" href="//facebook.com/segurosocial/">Facebook</a></li>
+<li><a class="disclaimer" href="//twitter.com/segurosocial/">Twitter</a></li>
+<li><a class="disclaimer" href="//youtube.com/socialsecurityonline/">YouTube</a></li>
+<li><a class="disclaimer" href="//pinterest.com/socialsecurity/servicios-en-español">Pinterest</a></li>
+</ul>
+</div>
+</div>
+</li><li><a class="icon icon-share" data-menu="share" href="#menu-share"><svg><use xlink:href="#icon-share"/></svg> S&iacute;ganos</a>
+<div class="menu menu-share" id="menu-share">
+<div class="inner-wrap">
+<ul>
+<li><a class="addthis_button_facebook" href="#" title="Share on Facebook"><span>Facebook</span></a></li>
+<li><a class="addthis_button_twitter" href="#" title="Tweet on Twitter"><span>Twitter</span></a></li>
+</div>
+</div>
+</li><li><a class="icon email" data-menu="gov-delivery" href="#menu-gov-delivery">Actualizaciones</a>
+<div class="menu menu-gov-delivery" id="menu-gov-delivery">
+<div class="inner-wrap">
+<ul>
+<li><a href="#">Inscr&iacute;base para recibir actualizaciones…</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+<!-- END UTILITY BAR MENU -->
+
+</div>
+<!-- END UTILITY BAR -->
+
+<!-- OVERLAY -->
+<div class="overlay"></div>
+
+<!-- INTERNET FRAMEWORK -->
+<script src="/framework/js/ssa.internet.js"></script>
+
+<!-- ADD THIS SHARE BUTTONS -->
+<script>
+var 
+addthis_config = {
+
+data_ga_property: 'UA-25977386-2',
+data_ga_social: true,
+data_track_clickback: true,
+data_use_cookies: false,
+ui_click: true,
+ui_use_css: false,
+ui_language: document.documentElement.lang
+
+};
+</script>
+<script defer="defer" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-517fd7440642721a"></script>
+
+<!-- SEARCH.USA.GOV SCRIPT -->
+<script>
+var usasearch_config = { siteHandle:"segurosocial" };
+
+var 
+script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "https://search.usa.gov/javascripts/remote.loader.js";
+document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+
+<!-- Start GA AutoTracker Code -->
+<script src="/framework/js/plugins/ssa.internet.autotracker.js"></script>
+<script>
+addLinkerEvents();
+</script>

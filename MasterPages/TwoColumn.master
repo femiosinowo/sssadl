@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Main.master"  AutoEventWireup="true" CodeFile="TwoColumn.master.cs" Inherits="MasterPages_TwoColumn" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="cphMainHead" Runat="Server">
+    <asp:ContentPlaceHolder ID="cphSecondaryMainHead" runat="server" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphMainContent" runat="Server">
+   
+    <asp:ContentPlaceHolder ID="cphSecondaryPageTitle" runat="server" />
+    <!-- PAGE CONTENT -->
+    <div id="content" role="main">
+        <!-- GRID -->
+        <div class="grid">
+        <asp:ContentPlaceHolder ID="cphSecondaryBreadcrumb" runat="server" />
+           
+            <div class="row-12">
+                <div class="column-8 print-full-width">
+                    <asp:ContentPlaceHolder ID="cphSecondaryMainContent" runat="server" />
+                </div>
+                <!-- END COLUMN -->
+                <div class="column-4 print-hide sidebar">
+                    <asp:ContentPlaceHolder ID="cphSideContent" runat="server" />
+                </div>
+                <!-- END ROW -->                
+            </div>
+        </div>
+        <!-- END GRID -->
+    </div>
+    <!-- END CONTENT -->
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cphJSCode" Runat="Server">
+    <asp:ContentPlaceHolder ID="cphSecondaryJSCode" runat="server" />
+</asp:Content>
+
